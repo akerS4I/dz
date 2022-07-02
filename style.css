@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: black;
+  color: white;
+
+  height: 65px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.green {
+  background-color: #24b47e;
+  width: 128px;
+  height: 30px;
+}
+
+.btn{
+    color: white;
+}
+.xz{
+    background-color:rgb(19, 18, 18);
+    color: white;
+
+    height: 904px;
+    width: 100%;
+}
+.title{
+    font-size: xx-large;
+    font-family: BanderaPro;
+    text-align: center;
+    padding: 70px;
+}
+.text{
+    font-family: BanderaProThin-Italic;
+    text-align: center;
+}
+.chel{
+    margin-left: 524px;
+    margin-top: 50px;
+}
+.text2{
+    margin-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.Dev{
+    padding: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 150px;
+}
+.git{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+
+@font-face {
+    font-family: "BanderaPro"; 
+    src: url("fonts/BanderaPro.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@font-face {
+    font-family: "BanderaProThin-Italic"; 
+    src: url("fonts/BanderaProThin-Italic.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+    
